@@ -1,7 +1,7 @@
 # Project Title: CS 412 ASSIGNMENTS
 
 ## Overview
-This repository contains a series of assignments from the CAS 412 MEAN course, focusing on the development of applications using MongoDB, Express, Angular, and Node.js (MEAN stack). Each assignment (PS2 to PS7) builds upon the previous, demonstrating progressive mastery of MEAN stack technologies.
+This repository contains a series of assignments that I have worked on and completed from the CAS 412 MEAN course that I took at Boston University, focusing on the development of applications using MongoDB, Express, Angular, and Node.js (MEAN stack). Each assignment (PS2 to PS7) builds upon the previous, demonstrating progressive mastery of MEAN stack technologies.
 
 ---
 
