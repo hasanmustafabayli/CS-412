@@ -1,0 +1,5 @@
+<form [formGroup]="form" (ngSumbit)="onSubmit()">
+    <label for="cities">Cities (comma-separated):</label>
+    <input id ="cities" formControlName="cities" type="text" />
+    <button type ="submit" [diabled]="form.invalid">Query</button>
+</form>

@@ -1,0 +1,19 @@
+<div *ngIf="data">
+  <ul>
+    <li *ngFor="let item of data">
+      Location: {{item.location.name}}
+      <ul>
+        <li>Temperature: {{item.current.temperature}} degrees Celsius</li>
+        <li>Weather Description: {{item.current.weather_descriptions[0]}}</li>
+        <li>Wind Speed: {{item.current.wind_speed}} km/h</li>
+        <li>Humidity: {{item.current.humidity}} %</li>
+      </ul>
+    </li>
+  </ul>
+  <button (click)="fetchData()">Fetch Data</button>
+</div>
+<h1>Angular App</h1>
+<div *ngIf="data">
+  <!-- The rest of your template code -->
+</div>
+

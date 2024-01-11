@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Data</title>
+</head>
+<body>
+  <h1>Weather Data for <%= data.location.name %></h1>
+  <ul>
+    <li>Temperature: <%= data.current.temperature %> degrees Celsius</li>
+    <li>Weather Description: <%= data.current.weather_descriptions[0] %></li>
+    <li>Wind Speed: <%= data.current.wind_speed %> km/h</li>
+    <li>Humidity: <%= data.current.humidity %> %</li>
+  </ul>
+</body>
+</html>
